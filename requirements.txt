@@ -1,0 +1,7 @@
+PySide6>=6.8,<7
+Pillow>=11,<13
+bleak==3.0.2
+winrt-Windows.Media.Control>=3,<4
+winrt-Windows.Foundation>=3,<4
+winrt-Windows.Foundation.Collections>=3,<4
+winrt-Windows.Storage.Streams>=3,<4

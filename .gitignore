@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+.pytest_cache/
+build/
+dist/
+research/*.js
+*.log
+settings.json
+.agents/
+
+# Generated packaging snapshots and old release folders
+*.spec
+InkCompanion-1.0/
+InkCompanion-1.1/
+InkCompanion-BLE-ReadOnly/
+source/
+validation/
+assets/
+InkCompanion-1.0-*.zip
+InkCompanion-1.1-*.zip
+InkCompanion-1.2-*.zip
+InkCompanion-1.3-*.zip
+InkCompanion-1.4-*.zip
+InkCompanion-BLE-ReadOnly-*.zip
+InkCompanion-Windows-x64.zip
+!InkCompanion-1.5-Windows-x64.zip
+
+# Local device diagnostics may contain hardware addresses or session details
+research/ble/
+research/*.json
+research/*.bin
+research/*connect.log
